@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Birthday palinfrome checker</title>
+  </head>
+  <body>
+    <h1>Is your B'day a palindrome?</h1>
+    <p>
+      This web app checks your birthdate in 4 formats DD-MM-YYYY , MM-DD-YYYY ,
+      YYYY-MM-DD , DD-MM-YY , MM-DD-YY , YY-MM-DD. e.g. if your birthdate is
+      10th september 2020, then app will check for '10092020', '09102020',
+      '20200910', '091020', '100920', '200910'
+    </p>
+
+    <label for="date-of-birth">Select your Birth Date:</label>
+    <input
+      id="date-of-birth"
+      type="date"
+      name="begin"
+      placeholder="dd-mm-yyyy"
+    />
+
+    <button id="check-btn">check</button>
+
+    <div class="output" style="display: none"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
